@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manas Tiwari | Full-Stack &amp; Front-End Developer Portfolio</title>
+    <title>Manas Tiwari | Full-Stack &amp; AI Product Builder</title>
     <!-- Google Fonts for modern clean typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -219,7 +219,7 @@
             font-size: 1.15rem;
             color: var(--text-muted);
             margin-bottom: 30px;
-            max-width: 520px;
+            max-width: 540px;
             line-height: 1.7;
         }
 
@@ -396,7 +396,7 @@
         }
 
         .stat-number {
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-weight: 800;
             background: var(--gradient-text);
             -webkit-background-clip: text;
@@ -471,38 +471,12 @@
         /* ========================================= */
         /* PROJECTS SECTION                          */
         /* ========================================= */
-        /* Filter tabs */
-        .project-filter {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 35px;
-            flex-wrap: wrap;
-        }
-
-        .filter-btn {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            color: var(--text-muted);
-            padding: 8px 18px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 0.9rem;
-            font-family: inherit;
-            transition: all 0.2s ease;
-        }
-
-        .filter-btn.active, .filter-btn:hover {
-            background: var(--primary);
-            color: #ffffff;
-            border-color: var(--primary);
-        }
-
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 25px;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         .project-card {
@@ -524,7 +498,7 @@
         .project-thumb-wrap {
             position: relative;
             overflow: hidden;
-            height: 200px;
+            height: 230px;
         }
 
         .project-thumb {
@@ -539,21 +513,21 @@
         }
 
         .project-content {
-            padding: 24px;
+            padding: 26px;
             display: flex;
             flex-direction: column;
             flex: 1;
         }
 
         .project-title {
-            font-size: 1.25rem;
+            font-size: 1.35rem;
             font-weight: 700;
             margin-bottom: 10px;
             color: var(--text-main);
         }
 
         .project-summary {
-            font-size: 0.92rem;
+            font-size: 0.95rem;
             color: var(--text-muted);
             line-height: 1.6;
             margin-bottom: 18px;
@@ -585,7 +559,7 @@
 
         .project-link-btn {
             text-decoration: none;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             font-weight: 600;
             color: var(--primary);
             display: inline-flex;
@@ -610,6 +584,33 @@
             max-width: 680px;
             margin: 0 auto;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .contact-info-banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 14px 20px;
+            background: rgba(56, 189, 248, 0.08);
+            border: 1px solid var(--border-accent);
+            border-radius: 12px;
+            margin-bottom: 30px;
+            font-size: 1rem;
+            color: var(--text-main);
+            flex-wrap: wrap;
+        }
+
+        .contact-info-banner a {
+            color: var(--primary);
+            font-weight: 700;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .contact-info-banner a:hover {
+            text-decoration: underline;
+            color: var(--accent);
         }
 
         .form-group {
@@ -748,28 +749,28 @@
         <div class="container hero-grid">
             <div class="hero-left">
                 <div class="badge">
-                    <span class="badge-dot"></span> 🚀 Passionate Learner &amp; Exploring Web Dev
+                    <span class="badge-dot"></span> 🤖 Engineering Student &amp; Building Products with AI
                 </div>
                 <h1 class="hero-title">
                     Hi, I'm <span class="gradient">Manas Tiwari</span><br>
-                    Learning &amp; Crafting the Web.
+                    Full-Stack &amp; AI Product Builder.
                 </h1>
                 <p class="hero-subtitle">
-                    Enthusiastic beginner on a journey to master Front-End &amp; Full-Stack Web Development. Currently actively learning HTML, CSS layouts, and JavaScript to build interactive, modern web experiences.
+                    Engineering student passionate about leveraging the power of Artificial Intelligence to craft modern web apps, solve real-world problems, and build impactful software products.
                 </p>
                 <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">See What I've Built 🚀</a>
+                    <a href="#projects" class="btn btn-primary">See Featured Project 🚀</a>
                     <a href="#contact" class="btn btn-outline">Connect With Me 👋</a>
                 </div>
             </div>
 
             <div class="hero-avatar-box">
                 <div class="avatar-glow-ring">
-                    <!-- Aapki real uploaded photo -->
+                    <!-- Aapki image link embedded -->
                     <img class="avatar-img" src="https://i.ibb.co/bRNm4WQj/Photo.jpg" alt="Manas Tiwari">
                 </div>
                 <div class="floating-pill">
-                    🌱 <span>Continuous Learner</span>
+                    ⚡ <span>AI &amp; Product Builder</span>
                 </div>
             </div>
         </div>
@@ -783,38 +784,38 @@
             <div class="section-header">
                 <p class="section-tag">About Me</p>
                 <h2 class="section-title">Driven by Curiosity &amp; Code</h2>
-                <p class="section-subtitle">Here is a brief glimpse into who I am and what fuels my passion for software engineering</p>
+                <p class="section-subtitle">Here is a brief glimpse into who I am and what fuels my passion for technology</p>
             </div>
 
             <div class="about-card">
                 <div class="about-text">
                     <p>
-                        <strong>Hello! My name is Manas Tiwari.</strong> I am an enthusiastic computer science learner and aspiring developer.
+                        <strong>Hello! My name is Manas Tiwari.</strong> I am an engineering student focused on understanding the true power of AI and learning how to build modern, high-impact products.
                     </p>
                     <p>
-                        I have completed my foundations in <strong>C Programming</strong>, which gave me a strong grasp over memory management, pointers, and problem-solving logic. Currently, I am expanding my horizons by actively learning <strong>Python</strong> alongside <strong>Data Structures &amp; Algorithms (DSA)</strong> to build efficient and scalable software solutions.
+                        In today's AI-driven era, I bridge the gap between core computer science principles and cutting-edge artificial intelligence. I focus on developing clean software logic, understanding computational power, and building interactive web experiences that solve real problems.
                     </p>
                     <p>
-                        On the web development front, I am actively exploring <strong>HTML, CSS (Flexbox &amp; Grid), and JavaScript</strong> to craft interactive, user-friendly digital experiences. I believe in consistent daily practice and learning by building real projects!
+                        From algorithm design to creative frontend interfaces, I believe in learning by doing — building real-world projects, experimenting with new AI workflows, and constantly leveling up my engineering mindset!
                     </p>
                 </div>
 
                 <div class="stats-grid">
                     <div class="stat-item">
-                        <div class="stat-number">C Lang</div>
-                        <div class="stat-label">✅ Completed</div>
+                        <div class="stat-number">AI &amp; Web</div>
+                        <div class="stat-label">🚀 Building Products</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">Python &amp; DSA</div>
-                        <div class="stat-label">🚀 In Progress</div>
+                        <div class="stat-number">Engineering</div>
+                        <div class="stat-label">🎓 Student &amp; Creator</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">Web Dev</div>
-                        <div class="stat-label">🌐 Active Practice</div>
+                        <div class="stat-number">Logic First</div>
+                        <div class="stat-label">🧩 Problem Solver</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">100%</div>
-                        <div class="stat-label">Problem Solver</div>
+                        <div class="stat-label">⚡ Passion &amp; Focus</div>
                     </div>
                 </div>
             </div>
@@ -829,67 +830,67 @@
             <div class="section-header">
                 <p class="section-tag">Tech Stack</p>
                 <h2 class="section-title">Skills &amp; Technologies</h2>
-                <p class="section-subtitle">Tools and languages I continuously sharpen and build with</p>
+                <p class="section-subtitle">Core technical foundation and modern product-building skills</p>
             </div>
 
             <div class="skills-grid">
-                <!-- Skill: C Language (Completed) -->
+                <!-- Skill: AI & Product Building -->
+                <div class="skill-box">
+                    <div class="skill-icon">🤖</div>
+                    <h3 class="skill-title">AI &amp; Product Building</h3>
+                    <p class="skill-desc">Harnessing modern AI tools, prompt workflows, and intelligent technologies to build dynamic, value-driven products.</p>
+                    <div class="skill-progress-bar">
+                        <div class="skill-progress-fill" style="width: 88%; background: linear-gradient(90deg, #38bdf8, #818cf8);"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: C Language & Problem Solving -->
                 <div class="skill-box">
                     <div class="skill-icon">⚙️</div>
-                    <h3 class="skill-title">C Language <span style="font-size: 0.75rem; color: #22c55e; border: 1px solid #22c55e; border-radius: 4px; padding: 2px 6px; font-weight: 600;">Completed</span></h3>
-                    <p class="skill-desc">Solid grasp of core programming, pointers, memory management, functions, arrays, and problem solving.</p>
+                    <h3 class="skill-title">C Language (Problem Solving)</h3>
+                    <p class="skill-desc">Solid grasp of programming fundamentals, memory management, pointers, and algorithmic problem-solving logic.</p>
                     <div class="skill-progress-bar">
-                        <div class="skill-progress-fill" style="width: 100%; background: linear-gradient(90deg, #10b981, #22c55e);"></div>
+                        <div class="skill-progress-fill" style="width: 95%; background: linear-gradient(90deg, #10b981, #22c55e);"></div>
                     </div>
                 </div>
 
-                <!-- Skill: Python (Learning) -->
+                <!-- Skill: Python -->
                 <div class="skill-box">
                     <div class="skill-icon">🐍</div>
-                    <h3 class="skill-title">Python <span style="font-size: 0.75rem; color: #38bdf8; border: 1px solid #38bdf8; border-radius: 4px; padding: 2px 6px; font-weight: 600;">Learning</span></h3>
-                    <p class="skill-desc">Writing clean Pythonic code, data structures, scripting, OOP concepts, and practical logic building.</p>
+                    <h3 class="skill-title">Python</h3>
+                    <p class="skill-desc">Writing clean Pythonic code, automation scripting, OOP concepts, data manipulation, and software problem-solving.</p>
                     <div class="skill-progress-bar">
-                        <div class="skill-progress-fill" style="width: 70%; background: linear-gradient(90deg, #38bdf8, #60a5fa);"></div>
+                        <div class="skill-progress-fill" style="width: 82%; background: linear-gradient(90deg, #38bdf8, #60a5fa);"></div>
                     </div>
                 </div>
 
-                <!-- Skill: DSA (Learning) -->
+                <!-- Skill: DSA -->
                 <div class="skill-box">
                     <div class="skill-icon">🧩</div>
-                    <h3 class="skill-title">DSA <span style="font-size: 0.75rem; color: #f59e0b; border: 1px solid #f59e0b; border-radius: 4px; padding: 2px 6px; font-weight: 600;">Learning</span></h3>
-                    <p class="skill-desc">Arrays, Strings, Linked Lists, Stacks, Queues, Sorting &amp; Searching algorithms, and Time Complexity (Big O).</p>
+                    <h3 class="skill-title">Data Structures &amp; Algorithms</h3>
+                    <p class="skill-desc">Data structures, algorithm design, searching, sorting, and time/space complexity optimization.</p>
                     <div class="skill-progress-bar">
-                        <div class="skill-progress-fill" style="width: 65%; background: linear-gradient(90deg, #f59e0b, #fbbf24);"></div>
+                        <div class="skill-progress-fill" style="width: 78%; background: linear-gradient(90deg, #f59e0b, #fbbf24);"></div>
                     </div>
                 </div>
 
-                <!-- Skill: Semantic HTML5 -->
+                <!-- Skill: Full-Stack Web Development -->
                 <div class="skill-box">
                     <div class="skill-icon">🌐</div>
-                    <h3 class="skill-title">HTML5 <span style="font-size: 0.75rem; color: #38bdf8; border: 1px solid #38bdf8; border-radius: 4px; padding: 2px 6px; font-weight: 600;">Active</span></h3>
-                    <p class="skill-desc">Accessible page structuring, SEO optimization, forms, native multimedia &amp; web standards.</p>
+                    <h3 class="skill-title">Web Development</h3>
+                    <p class="skill-desc">Semantic HTML5, CSS Grid &amp; Flexbox, modern responsive layouts, and interactive JavaScript web applications.</p>
                     <div class="skill-progress-bar">
                         <div class="skill-progress-fill" style="width: 90%;"></div>
                     </div>
                 </div>
 
-                <!-- Skill: Modern CSS3 -->
+                <!-- Skill: Creative UI & Design -->
                 <div class="skill-box">
                     <div class="skill-icon">🎨</div>
-                    <h3 class="skill-title">CSS3 &amp; Modern Layouts</h3>
-                    <p class="skill-desc">Flexbox, CSS Grid layouts, custom variables, smooth transitions, keyframe animations &amp; responsiveness.</p>
+                    <h3 class="skill-title">Creative UI &amp; Architecture</h3>
+                    <p class="skill-desc">Designing seamless user journeys, dark/light themes, sleek animations, and production-ready digital aesthetics.</p>
                     <div class="skill-progress-bar">
-                        <div class="skill-progress-fill" style="width: 85%;"></div>
-                    </div>
-                </div>
-
-                <!-- Skill: JavaScript -->
-                <div class="skill-box">
-                    <div class="skill-icon">⚡</div>
-                    <h3 class="skill-title">JavaScript (ES6+)</h3>
-                    <p class="skill-desc">DOM manipulation, event handling, dynamic UI updates, asynchronous workflows &amp; interactive state.</p>
-                    <div class="skill-progress-bar">
-                        <div class="skill-progress-fill" style="width: 78%;"></div>
+                        <div class="skill-progress-fill" style="width: 86%;"></div>
                     </div>
                 </div>
             </div>
@@ -897,77 +898,34 @@
     </section>
 
     <!-- ========================================= -->
-    <!-- 5. PROJECTS SECTION                       -->
+    <!-- 5. FEATURED PROJECT SECTION               -->
     <!-- ========================================= -->
     <section id="projects">
         <div class="container">
             <div class="section-header">
-                <p class="section-tag">Portfolio Showcase</p>
-                <h2 class="section-title">Featured Creations</h2>
-                <p class="section-subtitle">Explore working projects built right here in this workspace</p>
-            </div>
-
-            <!-- Project Filter Controls -->
-            <div class="project-filter">
-                <button class="filter-btn active" onclick="filterProjects('all', this)">All Projects</button>
-                <button class="filter-btn" onclick="filterProjects('css', this)">CSS &amp; Design</button>
-                <button class="filter-btn" onclick="filterProjects('js', this)">JavaScript Apps</button>
+                <p class="section-tag">Showcase</p>
+                <h2 class="section-title">Featured Project</h2>
+                <p class="section-subtitle">A live showcase of my digital craft and engineering work</p>
             </div>
 
             <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card" data-category="css">
+                <!-- Single Featured Project: Portfolio Website -->
+                <div class="project-card">
                     <div class="project-thumb-wrap">
-                        <img class="project-thumb" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=80" alt="Link Collection">
+                        <img class="project-thumb" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80" alt="Personal Portfolio Website">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Curated Link Directory</h3>
-                        <p class="project-summary">A full-featured resource library with category filters, dynamic brand icons, responsive grid cards, and an animated marquee announcement.</p>
+                        <h3 class="project-title">Personal Developer &amp; AI Portfolio</h3>
+                        <p class="project-summary">A modern, responsive web portfolio built with pure semantic HTML5, modern CSS3 (custom properties, blur backdrop, dark/light theme toggle), and dynamic JavaScript. Live deployed on GitHub Pages.</p>
                         <div class="project-tags">
                             <span class="project-tag">HTML5</span>
-                            <span class="project-tag">CSS Grid</span>
-                            <span class="project-tag">Flexbox</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="links-collection-with-css.html" target="_blank" class="project-link-btn">Launch Project ↗</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card" data-category="css">
-                    <div class="project-thumb-wrap">
-                        <img class="project-thumb" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=80" alt="Media Gallery">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Responsive Media Gallery</h3>
-                        <p class="project-summary">Dual-box interactive visual gallery showcasing hover-zoom photography cards alongside native HTML5 embedded video playback controls.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Media Tags</span>
-                            <span class="project-tag">CSS Effects</span>
-                            <span class="project-tag">Responsive</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="gallery-with-css.html" target="_blank" class="project-link-btn">Launch Project ↗</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card" data-category="js">
-                    <div class="project-thumb-wrap">
-                        <img class="project-thumb" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop&q=80" alt="Background Color Changer">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">DOM Color Controller</h3>
-                        <p class="project-summary">A dynamic JavaScript application changing element styles in real-time with event listeners and random hex-color generators.</p>
-                        <div class="project-tags">
+                            <span class="project-tag">Modern CSS3</span>
                             <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">DOM Manipulation</span>
-                            <span class="project-tag">Events</span>
+                            <span class="project-tag">GitHub Pages</span>
+                            <span class="project-tag">AI Workflows</span>
                         </div>
                         <div class="project-links">
-                            <a href="div-bg-app-with-js.html" target="_blank" class="project-link-btn">Launch Project ↗</a>
+                            <a href="https://okmanas.github.io/okmanas/" target="_blank" class="project-link-btn">Launch Live Site ↗</a>
                         </div>
                     </div>
                 </div>
@@ -981,12 +939,18 @@
     <section id="contact">
         <div class="container">
             <div class="section-header">
-                <p class="section-tag">Let's Talk</p>
+                <p class="section-tag">Let's Connect</p>
                 <h2 class="section-title">Send Me a Message</h2>
-                <p class="section-subtitle">Interested in working together or have any question? Drop a note below!</p>
+                <p class="section-subtitle">Interested in collaborating, discussing AI products, or have any question? Drop a message!</p>
             </div>
 
             <div class="contact-box">
+                <!-- Direct Email Banner -->
+                <div class="contact-info-banner">
+                    <span>📧 Direct Email:</span>
+                    <a href="mailto:heymanas.ai@gmail.com">heymanas.ai@gmail.com</a>
+                </div>
+
                 <form id="contactForm" onsubmit="handleContact(event)">
                     <div class="form-group">
                         <label class="form-label" for="contactName">Your Name</label>
@@ -994,13 +958,13 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="form-label" for="contactEmail">Email Address</label>
+                        <label class="form-label" for="contactEmail">Your Email Address</label>
                         <input type="email" class="form-input" id="contactEmail" placeholder="e.g. john@example.com" required>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label" for="contactMsg">Your Message</label>
-                        <textarea class="form-textarea" id="contactMsg" rows="5" placeholder="Hey Manas, I'd like to talk about..." required></textarea>
+                        <textarea class="form-textarea" id="contactMsg" rows="5" placeholder="Hey Manas, I'd like to connect about..." required></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
@@ -1019,18 +983,18 @@
     <footer>
         <div class="container">
             <div class="footer-socials">
-                <a href="https://github.com" target="_blank">GitHub</a>
-                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-                <a href="https://twitter.com" target="_blank">Twitter / X</a>
+                <a href="https://github.com/okmanas" target="_blank">GitHub</a>
+                <a href="mailto:heymanas.ai@gmail.com">Email</a>
+                <a href="#hero">Back to Top ↑</a>
             </div>
             <p class="footer-copy">
-                &copy; 2026 <strong>Manas Tiwari</strong>. Crafted with HTML5, Modern CSS &amp; JavaScript.
+                &copy; 2026 <strong>Manas Tiwari</strong>. Engineering Student &amp; AI Product Builder.
             </p>
         </div>
     </footer>
 
     <!-- ============================================================== -->
-    <!-- JAVASCRIPT: Theme Toggle, Project Filter, & Contact Handling   -->
+    <!-- JAVASCRIPT: Theme Toggle & Contact Handling                   -->
     <!-- ============================================================== -->
     <script>
         // 1. Dark / Light Theme Toggle Functionality
@@ -1050,41 +1014,22 @@
             }
         }
 
-        // 2. Interactive Project Filtering
-        function filterProjects(category, btnElement) {
-            // Update active state on buttons
-            const buttons = document.querySelectorAll('.filter-btn');
-            buttons.forEach(btn => btn.classList.remove('active'));
-            btnElement.classList.add('active');
-
-            // Filter project cards
-            const cards = document.querySelectorAll('.project-card');
-            cards.forEach(card => {
-                const cardCategory = card.getAttribute('data-category');
-                if (category === 'all' || cardCategory === category) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-
-        // 3. Contact Form Submission Handling
+        // 2. Contact Form Submission Handling
         function handleContact(event) {
             event.preventDefault();
             const name = document.getElementById('contactName').value;
             const statusBox = document.getElementById('formStatus');
 
             statusBox.className = 'form-status status-success';
-            statusBox.innerHTML = `🎉 Thank you, <strong>${name}</strong>! Your message has been received. Manas will get back to you soon.`;
+            statusBox.innerHTML = `🎉 Thank you, <strong>${name}</strong>! Your message has been noted. You can also directly reach out at <a href="mailto:heymanas.ai@gmail.com" style="color: #22c55e; font-weight: bold;">heymanas.ai@gmail.com</a>.`;
             statusBox.style.display = 'block';
 
             document.getElementById('contactForm').reset();
 
-            // Auto-hide alert after 5 seconds
+            // Auto-hide alert after 6 seconds
             setTimeout(() => {
                 statusBox.style.display = 'none';
-            }, 5000);
+            }, 6000);
         }
     </script>
 
